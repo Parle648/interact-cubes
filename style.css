@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-block{
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    margin: 0 auto;
+    margin-top: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.first-block:hover{
+    background-color: rgba(139, 0, 139, 0.719);
+    border-radius: 15px;
+    transition: 0.8s;
+    transform: scale(1.2);
+}
